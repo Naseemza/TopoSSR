@@ -62,7 +62,7 @@ Calculate persistent intervals $[b_i, d_i)$ for 1-cycles.
 ### Step 5: Compute MaxPB-1
 From persistence diagram, extract:
 
-$$\hat{\beta}_1 = \max_r \#\{i : b_i \leq r < d_i\}$$
+$$\hat{\beta}_1 = \max_r \{i : b_i \leq r < d_i\}$$
 
 ### Step 6: Compare Blocks
 Compute $\Delta\beta_1$ between wild-type and mutant for each block.
@@ -228,17 +228,7 @@ After running, check the output directory for:
 
 ---
 
-## 🎓 Citation
 
-```bibtex
-@article{ansari2025topossr,
-  title={TopoSSR: A Persistent Homology Framework for Identifying 
-         Disease-Associated Protein Structural Mutations},
-  author={Ansari, Naseem Zoha and Gogoi, Sudarshan and Chakraborty, Amit},
-  journal={[Under Review]},
-  year={2025}
-}
-```
 
 **Contact:** achakraborty@cus.ac.in
 
